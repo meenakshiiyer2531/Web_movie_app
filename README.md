@@ -1,27 +1,39 @@
-# HTML, CSS, JS (Auto Refresh)
+# Movie Web App
 
-This template is a starter for building a website with HTML, CSS and JS, powered by [Vite](https://vitejs.dev/). HTML provides the basic structure, CSS controls formatting, and JavaScript controls the behavior of different elements.
+## Overview
 
-Hit run to see this project in action. It will auto-refresh as you edit the HTML, CSS and JS files.
+This web app provides a user-friendly interface to explore and discover movies using data from an external API.
 
-## Disable Auto Refresh
+## Features
 
-If you find the auto refresh getting in your way, go to [vite.config.js](./vite.config.js) and update it set `hmr` to false to disable hot module reloading (HMR). The full config will look like this:
+Displays a list of popular movies with essential details.
+Allows users to search for movies by title or keyword.
+Provides individual movie pages with more detailed information, such as:
+1.Cast and crew
+2.Plot summary
+3.User ratings and reviews
+4.Trailers and clips
+5.Filters movies based on genres or release year.
 
-```js
-export default defineConfig({
-  plugins: [],
-  server: {
-    host: '0.0.0.0',
-    hmr: false, // Change this line to `false` disable auto-refreshing.
-  }
-})
-```
+## Technologies Used
 
-## Packages
+Frontend: HTML,CSS,JS
+API: The Movie Database (TMDb)
 
-Because this template uses Vite to build your code, you can add install and use npm packages. Simple open the Packager tool to search and manage your packages.
+## Getting Started
 
-## Learn More
-
-Check out [the vite docs](https://vitejs.dev) to learn more about configuring a frontend application.
+# Prerequisites:
+Node.js and npm (or yarn) installed
+(List any other required tools or dependencies)
+# Installation:
+Clone this repository: git clone https://github.com/meenakshiiyer2531/Web_movie_app.git
+Navigate to the project directory: cd movie-web-app
+# Install dependencies: npm install (or yarn install)
+# Environment Variables:
+Create a .env file in the project root and add the following variables:
+API_KEY=your_api_key
+BASE_URL=https://api.themoviedb.org/3
+Replace your_api_key with your actual API key.
+# Running the App:
+Start the development server: npm start (or yarn start)
+Open your web browser and visit http://localhost:3000 (or the specified port).
